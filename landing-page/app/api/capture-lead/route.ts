@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
 
     const normalizedEmail = email.trim().toLowerCase();
     const timestamp = new Date().toISOString();
-    const dataDir = path.join(process.cwd(), "data");
+    const dataDir = "/tmp";
     const filePath = path.join(dataDir, "leads.csv");
 
     // Ensure data directory exists
