@@ -32,7 +32,7 @@ export function Footer() {
         <div className="grid gap-10 lg:grid-cols-12">
           <div className="space-y-5 lg:col-span-4">
             <Link href="/" className="inline-flex items-center gap-2 text-lg font-semibold tracking-tight">
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-orange-400 text-white">
+              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-accent text-primary-foreground">
                 <Sparkles className="h-5 w-5" />
               </span>
               BrandOps

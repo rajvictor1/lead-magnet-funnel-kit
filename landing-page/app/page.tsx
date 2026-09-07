@@ -94,7 +94,7 @@ export default function HomePage() {
             5 LinkedIn Templates
             <br />
             That Get{" "}
-            <span className="bg-gradient-to-r from-primary to-orange-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               100+ Likes
             </span>
           </h1>
@@ -153,7 +153,7 @@ export default function HomePage() {
 
       {/* CTA */}
       <section id="download" className="px-4 py-24 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl rounded-2xl border border-border/50 bg-gradient-to-br from-primary/10 to-orange-500/10 p-8 text-center sm:p-12">
+        <div className="mx-auto max-w-3xl rounded-2xl border border-border/50 bg-gradient-to-br from-primary/10 to-accent/10 p-8 text-center sm:p-12">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">Get the templates now</h2>
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
             Join 500+ creators using these templates to post faster and grow faster on LinkedIn.

@@ -61,7 +61,7 @@ export function LeadCaptureForm() {
       <Button
         type="submit"
         disabled={loading}
-        className="rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary/90 disabled:opacity-70"
+        className="rounded-full bg-orange-500 px-6 py-3 text-sm font-semibold text-white hover:bg-orange-600 disabled:opacity-70"
       >
         {loading ? (
           <>
